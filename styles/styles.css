@@ -1,0 +1,139 @@
+nav {
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav ul {
+    position: relative;
+    text-align: center;
+    font-size: 1.2em;
+    color: #9bfdfb;
+    display: flex;
+    justify-content:space-evenly;
+    list-style-type:none;
+}
+nav ul li{
+    list-style-type: none;
+    background-color: #9bfdfb;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    color: black;
+    font-family:Impact;
+}
+
+a:link{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+#active{
+    color: black;
+    background-color: white;
+}
+nav ul li:hover{
+    background-color:white;
+    color:black;
+    text-decoration: underline;
+}
+header{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align:center;
+    font-family: Verdana;
+}
+.h2{
+    float: left;
+    color: white;
+    text-decoration: underline;
+    margin-left: 20%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.0em;
+    font-weight:lighter;
+    
+}
+.latestNews{
+    /*Latest News Heading */
+    color: white;
+    margin-left: 45%;
+    text-decoration: underline;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.0em;
+    font-weight: lighter;
+    text-shadow: 2px 2px black;
+} 
+.latestEnt{
+    /*Latest Entertainment Heading */
+    color: white;
+    text-decoration: underline;
+    margin-left: 40%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.0em;
+    font-weight:lighter;
+    text-shadow: 2px 2px black;
+} 
+.child {
+    border: 5px solid black;
+    border-radius: 10px;
+    float: left;
+    width: 100%;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    
+}
+.video {
+    border: 5px solid black;
+    border-radius: 10px;
+    float: left;
+    width: 100%;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+.articleLink{
+    color: #8a00c2;
+}
+.articleImages
+{
+    border: 5px #9bfdfb;
+    border-radius: 5px;
+    
+}
+#Video1
+{
+    border: solid white 5px;
+    border-radius: 10px;
+    margin-top: 0%;
+    height: 375px;
+}
+footer{
+    
+    display: inline-block;
+    margin-top: 20px;
+    height: 50px;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: solid black;
+    border-radius: 10px;
+}
+footer p{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+
+

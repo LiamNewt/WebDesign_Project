@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--Comments
+Date Created: Jan 2025-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Home Page">
+        <meta name="keywords" content="Sections,Article,Footer">
+        <title>HTML 5 Boilerplate</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <style>
+            body{
+        width: 99%;
+        background-image: url(images/pitch\ pattern3.jpg);
+        background-color: transparent;
+        background-size:cover;
+        background-blend-mode: darken;
+            }
+            label{
+                float: left;
+                width: 112px;
+                padding-right: 10px;
+                text-align: right;
+            }
+            input{
+                margin-left: 1em;
+                margin-bottom: .5em;
+                width: 220px;
+            }
+            #button, #reset{
+                margin-top: .5em;
+                width: 8em;
+                background-color: orange;
+                border: 2px solid black;
+            }
+            input[type="checkbox"]{
+                width: 10px;
+            }
+            #button{
+                margin-left: 138px;
+            }
+            #reset{
+                margin-left: 82px;
+            }
+            input[type="radio"]
+            {
+                width: 10px;
+            }
+            .required{
+                font-weight: bold;
+                color: red;
+            }
+            main{
+                margin: 15px 200px;
+                padding: 20px;
+                border: black solid 1px;
+                background: white;
+                min-height: 500px;
+            }
+            header p{
+                position: relative;
+                top: 40%;
+                font-style: italic;
+                text-align: center;
+            }
+            ul{
+                list-style: none;
+            }
+            li{
+                display: inline-block;
+            }
+            footer a{
+                text-decoration: none;
+            }
+        </style>
+    </head>
+<body>
+    <img style="float:left; margin-right:10px;" src="images/TekkyNet Logo Blue invert.jpg" alt="TekkyNet Logo" width="200">
+    <header><h1>Your Home For Football News & Entertainment</h1></header>
+    
+    <nav>
+        <ul>
+            <li> <a href="home.html">Home</a></li>
+            <li> <a href="news.html">News</a></li>
+            <li> <a href="results.html">Results</a></li>
+            <li> <a href="entertainment.html">Entertainment</a></li>
+            <li id ="active"> <a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Any queries or feedback please complete and submit</h2>
+        <section>
+            <h3>Please enter the following information:     (form action="http:/foo.com" method="get")</h3>
+            <form action="http:/foo.com" method="put">
+                <label for="first name">First name:<span class="required">*</span></label>
+                <input type="text" name="first_name" id="first_name" autofocus required><br>
+                <label for="last_name">Last name:<span class="required">*</span></label>
+                <input type="text" name="last_name" id="last_name" required><br>
+                <label for="email">Email:<span class="required">*</span></label>
+                <input type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" id="gender" name="gender" value="male">Male
+                <input type="radio" id="gender" name="gender" value="female">Female
+                <input type="radio" id="gender" name="gender" value="other">Other <br>
+                <label for="internet">Heard of us:</label>
+                <fieldset>
+                    <input type="checkbox" id="internet" name="internet" value="internet" checked>Internet <br>
+                    <input type="checkbox" class="margin1" id="hearr" name="paper" value="internet">Newspaper <br>
+                    <input type="checkbox" class="margin1" id="hear" name="friend" value="friend">Friend <br>
+                    <input type="checkbox" class="margin1" id="hear2" name="Add" value="Add">Other <br>
+                </fieldset> <br>
+                <label for="message">Query:</label>
+                <textarea cols="40" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters" data-maxlength="200"></textarea> <br>
+                <input type="=submit" name="submit" id="button" value="submit">
+                <input type="reset" name="reset" id="reset">
+            </form>
+            <p style="margin-left: 138px;"> <span class="required">*</span><em>indicates a required field</em></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 TekkyNet. This is a college project.</p>
+    </footer>
+</body>
+</html>
